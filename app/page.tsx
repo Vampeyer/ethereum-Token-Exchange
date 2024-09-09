@@ -7,7 +7,7 @@ const Home: NextPage = () => {
       <div className="px-5 w-[90%] md:w-[75%]">
         <h1 className="text-center mb-6">
           <span className="block text-2xl mb-2">SpeedRunEthereum</span>
-          <span className="block text-4xl font-bold">Challenge #0: Simple NFT</span>
+          <span className="block text-4xl font-bold">Challenge #2: 🏵 Token Vendor 🤖</span>
         </h1>
         <div className="flex flex-col items-center justify-center">
           <Image
@@ -19,17 +19,15 @@ const Home: NextPage = () => {
           />
           <div className="max-w-3xl">
             <p className="text-center text-lg mt-8">
-              🎫 Create a simple NFT to learn basics of 🏗️ Scaffold-ETH 2. You&apos;ll use 👷‍♀️
-              <a href="https://hardhat.org/getting-started/" target="_blank" rel="noreferrer" className="underline">
-                HardHat
-              </a>{" "}
-              to compile and deploy smart contracts. Then, you&apos;ll use a template React app full of important
-              Ethereum components and hooks. Finally, you&apos;ll deploy an NFT to a public network to share with
-              friends! 🚀
+              🤖 Smart contracts are kind of like &quot;always on&quot; vending machines that anyone can access.
+              Let&apos;s make a decentralized, digital currency. Then, let&apos;s build an unstoppable vending machine
+              that will buy and sell the currency. We&apos;ll learn about the &quot;approve&quot; pattern for ERC20s and
+              how contract to contract interactions work.
             </p>
             <p className="text-center text-lg">
-              🌟 The final deliverable is an app that lets users purchase and transfer NFTs. Deploy your contracts to a
-              testnet then build and upload your app to a public web server. Submit the url on{" "}
+              🌟 The final deliverable is an app that lets users purchase your ERC20 token, transfer it, and sell it
+              back to the vendor. Deploy your contracts on your public chain of choice and then deploy your app to a
+              public webserver. Submit the url on{" "}
               <a href="https://speedrunethereum.com/" target="_blank" rel="noreferrer" className="underline">
                 SpeedRunEthereum.com
               </a>{" "}

@@ -14,10 +14,7 @@ export const TransactionHash = ({ hash }: { hash: string }) => {
         {hash?.substring(0, 6)}...{hash?.substring(hash.length - 4)}
       </Link>
       {addressCopied ? (
-        <CheckCircleIcon
-          className="ml-1.5 text-xl font-normal text-sky-600 h-5 w-5 cursor-pointer"
-          aria-hidden="true"
-        />
+        <CheckCircleIcon className="ml-1.5 text-xl font-normal h-5 w-5 cursor-pointer" aria-hidden="true" />
       ) : (
         <CopyToClipboard
           text={hash as string}
@@ -28,10 +25,7 @@ export const TransactionHash = ({ hash }: { hash: string }) => {
             }, 800);
           }}
         >
-          <DocumentDuplicateIcon
-            className="ml-1.5 text-xl font-normal text-sky-600 h-5 w-5 cursor-pointer"
-            aria-hidden="true"
-          />
+          <DocumentDuplicateIcon className="ml-1.5 text-xl font-normal h-5 w-5 cursor-pointer" aria-hidden="true" />
         </CopyToClipboard>
       )}
     </div>
